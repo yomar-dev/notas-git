@@ -27,3 +27,14 @@ Un sistema que registra los cambios realizados sobre un archivo o conjunto de ar
 **Working Directory:** Es al lugar donde se trabajan los archivos. <br>
 **Staging Area:** Es el área de preparación de los archivos que serán registrados en el repositorio. <br>
 **Git Repository:** Es el lugar donde se almacena el código de forma segura.
+
+
+### Comandos de Git ###
+
+**git init:** Nos crea un repositorio de manera local y lo hará en la carpeta donde estamos posicionados o se le puede pasar ***[nombre_carpeta]*** y creará la carpeta con ese nombre.
+
+
+
+### Enlaces de interes ###
+
+[Emulador de terminal para Windows](http://cmder.net/)
