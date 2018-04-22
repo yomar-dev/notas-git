@@ -51,6 +51,8 @@ Un sistema que registra los cambios realizados sobre un archivo o conjunto de ar
 
 **git commit -m ["mensaje"] --amend:** Nos permite concatenar nuevos cambios al último y también podemos cambiar el mensaje de dicho *commit* si así lo deseamos.
 
+**git log:** Nos permite ver el historial de todos los *commits*.
+
 
 > **Untracked files:** Son archivos que están en nuestro *Working Directory*
 
