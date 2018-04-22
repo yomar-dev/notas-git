@@ -33,6 +33,8 @@ Un sistema que registra los cambios realizados sobre un archivo o conjunto de ar
 
 **git init:** Nos crea un repositorio de manera local y lo hará en la carpeta donde estamos posicionados o se le puede pasar ***[nombre_carpeta]*** y creará la carpeta con ese nombre.
 
+**git status:** Muestra el estado de los archivos y directorios, los que estén en *verde* se encuentran en el *Staging Area* y los que estén *rojo* se encuentran en el *Working Directory*.
+
 **git add [file or directory]:** Agregar un archivo o una carpeta al *Staging Area*.
 
 **git add -A:** Agregar todos los *untracked files* al *Staging Area*
