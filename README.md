@@ -39,6 +39,8 @@ Un sistema que registra los cambios realizados sobre un archivo o conjunto de ar
 
 **git add .:** Agregar todos los *untracked files* al *Staging Area*
 
+**git rm --cached [file or directory]**: Elimina un archivo o carpeta del *Staging Area* y lo deja en el *Working Directory*.
+
 > **Untracked files:** Son archivos que están en nuestro *Working Directory*
 
 
