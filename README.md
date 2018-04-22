@@ -47,6 +47,9 @@ Un sistema que registra los cambios realizados sobre un archivo o conjunto de ar
 
 **git checkout [file or directory]:** Revierte los cambios en un archivo o directorio dentro del *Working Directory*.
 
+**git commit -m ["mensaje"]:** Nos permite confirmar los cambios realizados.
+
+
 > **Untracked files:** Son archivos que están en nuestro *Working Directory*
 
 
