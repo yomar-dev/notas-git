@@ -50,6 +50,13 @@ Un sistema que registra los cambios realizados sobre un archivo o conjunto de ar
 > **Untracked files:** Son archivos que están en nuestro *Working Directory*
 
 
+<br><br>
+
+### Notas ###
+
+![git add](images/git-add.jpg)
+
+
 
 ### Enlaces de interes ###
 
