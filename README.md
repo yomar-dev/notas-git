@@ -45,6 +45,8 @@ Un sistema que registra los cambios realizados sobre un archivo o conjunto de ar
 
 **git rm -f [file or directory]:** Fuerza la eliminación de un archivo o carpeta del *Staging Area* y del *Working Directory*.
 
+**git checkout [file or directory]:** Revierte los cambios en un archivo o directorio dentro del *Working Directory*.
+
 > **Untracked files:** Son archivos que están en nuestro *Working Directory*
 
 
