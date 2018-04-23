@@ -89,11 +89,13 @@ git log --pretty=format:"%cn hizo un commit %h el dia %cd":** Muestra mensajes p
 
 **git diff:** Si no le pasamos ningún paramétro nos mostrará los cambios realizados entre nuestro estado actual y el último *commit.*
 
-**git diff 0fd7c38:** Si le pasamos el *hash* de un *commit*, nos muestra los cambios realizados entre dicho *commit* y nuestro estado actual.
+**git diff [HASH]:** Si le pasamos el *hash* de un *commit*, nos muestra los cambios realizados entre dicho *commit* y nuestro estado actual.
 
-**git diff 70fd099 0fd7c38:** Ver los cambios realizados entre dos *commits.*
+**git diff [HASH #1] [HASH #2]:** Ver los cambios realizados entre dos *commits.*
 
 **git diff 0.5 0.3:** Ver la diferencia entre dos *tags.*
+
+**git reset --soft [HASH]:** Partiendo de un *commit* identificado por su *HASH*, elimina todos los *commits* futuros a el y mantiene todos esos cambios (registrados en los commits eliminados) en el *Staging Area*.
 
 
 > **Untracked files:** Son archivos que están en nuestro *Working Directory*
