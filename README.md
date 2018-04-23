@@ -53,6 +53,8 @@ Un sistema que registra los cambios realizados sobre un archivo o conjunto de ar
 
 **git log:** Nos permite ver el historial de todos los *commits*.
 
+**git tag:** Sirve para etiquetar confirmaciones.
+
 
 > **Untracked files:** Son archivos que están en nuestro *Working Directory*
 
