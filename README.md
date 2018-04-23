@@ -138,7 +138,10 @@ Ver los *commits* de los últimos 90 días: <br>
 ***Recuperar cambios luego de un git reset --hard:*** <br>
 `git log > historial.txt` Realizar un respaldo de nuestos *commits.* <br>
 `git reset --hard [HASH]` Resetear cambios hasta un *commit* especifico. <br>
-Si nos equivocamos y queremos regresar a un *commit* que ha sido eliminado al momento de hacer `reset --hard` podemos consultar el *HASH* de dicho *commit* en nuestro archivo *historial.txt* y luego hacer `git reset --hard [HASH]` para ir al *commit* que deseamos y recuperar nuestros cambios..
+Si nos equivocamos y queremos regresar a un *commit* que ha sido eliminado al momento de hacer `reset --hard` podemos consultar el *HASH* de dicho *commit* en nuestro archivo *historial.txt* y luego hacer `git reset --hard [HASH]` para ir al *commit* que deseamos y recuperar nuestros cambios.
+
+**Ramas:** Una rama es una línea alterna del tiempo (del proyecto). La rama por defecto es **master**, la rama de GitHub Pages es **gh-pages** y cuando se trabaja como colaborador se identifica el proyecto principal con la rama **upstream.**
+
 
 
 
