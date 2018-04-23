@@ -53,6 +53,14 @@ Un sistema que registra los cambios realizados sobre un archivo o conjunto de ar
 
 **git log:** Nos permite ver el historial de todos los *commits*.
 
+**git log --oneline:** Coloca los commits de manera resumida y en una sola línea.
+
+**git log -–graph:** Nos mostraria los diferentes commits en las ramas o bifurcaciones con un asterisco.
+
+**git log -[numero]:** Nos permite ver los últimos commit.
+
+**git log --stat:** Podemos ver los archivos que fueron cambiados en cada commit.
+
 **git tag:** Sirve para etiquetar confirmaciones.
 
 
@@ -74,6 +82,8 @@ Un sistema que registra los cambios realizados sobre un archivo o conjunto de ar
 `git tag -f -a [1.x] -m "[description...]" [Commit HASH]` Permite renombrar un tag. <br>
 `git tag -d [1.x]` Elimina un tag.
 
+`git log -5` Nos permite ver los últimos 5 *commits.*
+
 **Alias - git superlog**
 
 `git config --global alias.superlog "log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"`
@@ -87,3 +97,4 @@ Un sistema que registra los cambios realizados sobre un archivo o conjunto de ar
 [Empezando con GIT](https://git-scm.com/book/es/v1/Empezando) <br>
 [Documentation GIT](https://git-scm.com/doc) <br>
 [Reference GIT](https://git-scm.com/docs) <br>
+[git log](https://www.git-scm.com/docs/git-log)
