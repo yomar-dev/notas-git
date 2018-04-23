@@ -111,6 +111,7 @@ git log --pretty=format:"%cn hizo un commit %h el dia %cd":** Muestra mensajes p
 
 **git branch -m [old-name-branch] [new-name-branch]:** Permite renombrar una nueva rama.
 
+
 > **Untracked files:** Son archivos que no están siendo rastreados por *git*, es decir, no están en nuestro *Working Directory* ni en nuestro *Staging Area.*
 
 
@@ -165,4 +166,5 @@ Si nos equivocamos y queremos regresar a un *commit* que ha sido eliminado al mo
 [Documentation GIT](https://git-scm.com/doc) <br>
 [Reference GIT](https://git-scm.com/docs) <br>
 [git log](https://www.git-scm.com/docs/git-log) <br>
-[Configurar editor de texto para git en Windows](https://help.github.com/articles/associating-text-editors-with-git/)
+[Configurar editor de texto para git en Windows](https://help.github.com/articles/associating-text-editors-with-git/) <br>
+[Resumen - Guia de GIT](https://joaquinaraujo.github.io/git-github/)
