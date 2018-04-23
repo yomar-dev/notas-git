@@ -97,8 +97,9 @@ git log --pretty=format:"%cn hizo un commit %h el dia %cd":** Muestra mensajes p
 
 **git reset --soft [HASH]:** Partiendo de un *commit* identificado por su *HASH*, elimina todos los *commits* futuros a el y mantiene todos esos cambios (registrados en los commits eliminados) en el *Staging Area*.
 
+**git reset --mixed [HASH]:** Partiendo de un *commit* identificado por su *HASH*, elimina todos los *commits* futuros a el y mantiene todos esos cambios (registrados en los commits eliminados) en el *Working Directory.*
 
-> **Untracked files:** Son archivos que están en nuestro *Working Directory*
+> **Untracked files:** Son archivos que no están siendo rastreados por *git*, es decir, no están en nuestro *Working Directory* ni en nuestro *Staging Area.*
 
 
 <br><br>
