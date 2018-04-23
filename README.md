@@ -79,4 +79,7 @@ Un sistema que registra los cambios realizados sobre un archivo o conjunto de ar
 
 ### Enlaces de interes ###
 
-[Emulador de terminal para Windows](http://cmder.net/)
+[Emulador de terminal para Windows](http://cmder.net/) <br>
+[Empezando con GIT](https://git-scm.com/book/es/v1/Empezando) <br>
+[Documentation GIT](https://git-scm.com/doc) <br>
+[Reference GIT](https://git-scm.com/docs) <br>
