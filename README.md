@@ -111,6 +111,8 @@ git log --pretty=format:"%cn hizo un commit %h el dia %cd":** Muestra mensajes p
 
 **git branch -m [old-name-branch] [new-name-branch]:** Permite renombrar una nueva rama.
 
+**git checkout [name-branch or commit-HASH]:** Permite moverse entre ramas o entre los *commits* de una rama.
+
 
 > **Untracked files:** Son archivos que no están siendo rastreados por *git*, es decir, no están en nuestro *Working Directory* ni en nuestro *Staging Area.*
 
