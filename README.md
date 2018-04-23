@@ -84,9 +84,17 @@ Un sistema que registra los cambios realizados sobre un archivo o conjunto de ar
 
 `git log -5` Nos permite ver los últimos 5 *commits.*
 
-**Alias - git superlog**
+**Alias - git:**
 
 `git config --global alias.superlog "log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"`
+
+`git config --global alias.superlog log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset%s%Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit`
+
+Ver los *commits* de la última semana: <br>
+`git log --all --pretty=format:'%h %cd %s (%an)' --since='7 days ago'`
+
+Ver los *commits* de los últimos 90 días: <br>
+`git log --all --pretty=format:'%h %cd %s (%an)' --since='90 days ago'`
 
 
 <br><br>
