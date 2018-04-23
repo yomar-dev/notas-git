@@ -53,13 +53,37 @@ Un sistema que registra los cambios realizados sobre un archivo o conjunto de ar
 
 **git log:** Nos permite ver el historial de todos los *commits*.
 
-**git log --oneline:** Coloca los commits de manera resumida y en una sola línea.
+**git log --oneline:** Muestra el *id* y el título del *commit* de manera resumida y en una sola línea.
 
 **git log -–graph:** Nos mostraria los diferentes commits en las ramas o bifurcaciones con un asterisco.
 
-**git log -[numero]:** Nos permite ver los últimos commit.
+**git log -[numero]:** Nos permite limitar el número de *commits* que queremos ver.
 
-**git log --stat:** Podemos ver los archivos que fueron cambiados en cada commit.
+**git log --stat:** Podemos ver los archivos que fueron cambiados en cada *commit* y explica el número de líneas que se modificaron brevemente.
+
+**git log --decorate:** Muestra donde se encuentra el head point en el log.
+
+**git log -p:** Explica el número de líneas que se cambiaron y te muestra que se cambió en el contenido.
+
+**git shortlog:** Indica que commits ha realizado un usuario, mostrando el usuario y el titulo de sus commits.
+
+**git log --graph --oneline --decorate y
+git log --pretty=format:"%cn hizo un commit %h el dia %cd":** Muestra mensajes personalizados de los commits. <br>
+
+**git log --after="2018-1-2":** Localizar *commits* por fechas. <br>
+**git log --after="today":** Localizar *commits* por fechas. <br>
+**git log --after="2018-1-2":** Localizar *commits* por fechas.
+**git log --before="today":** Localizar *commits* por fechas.
+
+**git log --author="Name Author":** Filtrar *commits* realizados por autor que cumplan exactamente con el nombre.
+
+**git log --grep="INVIE":** Buscar los *commits* que cumplan tal cual está escrito entre las comillas.
+
+**git log --grep="INVIE" -i:** Buscar los *commits* que cumplan sin importar mayúsculas o minúsculas.
+
+**git log index.html:**- Buscar los *commits* en un archivo en específico.
+
+**git log -S "Por contenido":** Buscar los *commits* con el contenido dentro del archivo.
 
 **git tag:** Sirve para etiquetar confirmaciones.
 
