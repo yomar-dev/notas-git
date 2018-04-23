@@ -74,6 +74,10 @@ Un sistema que registra los cambios realizados sobre un archivo o conjunto de ar
 `git tag -f -a [1.x] -m "[description...]" [Commit HASH]` Permite renombrar un tag. <br>
 `git tag -d [1.x]` Elimina un tag.
 
+**Alias - git superlog**
+
+`git config --global alias.superlog "log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"`
+
 
 <br><br>
 
