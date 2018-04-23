@@ -151,4 +151,5 @@ Si nos equivocamos y queremos regresar a un *commit* que ha sido eliminado al mo
 [Empezando con GIT](https://git-scm.com/book/es/v1/Empezando) <br>
 [Documentation GIT](https://git-scm.com/doc) <br>
 [Reference GIT](https://git-scm.com/docs) <br>
-[git log](https://www.git-scm.com/docs/git-log)
+[git log](https://www.git-scm.com/docs/git-log) <br>
+[Configurar editor de texto para git en Windows](https://help.github.com/articles/associating-text-editors-with-git/)
