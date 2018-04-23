@@ -87,6 +87,14 @@ git log --pretty=format:"%cn hizo un commit %h el dia %cd":** Muestra mensajes p
 
 **git tag:** Sirve para etiquetar confirmaciones.
 
+**git diff:** Si no le pasamos ningún paramétro nos mostrará los cambios realizados entre nuestro estado actual y el último *commit.*
+
+**git diff 0fd7c38:** Si le pasamos el *hash* de un *commit*, nos muestra los cambios realizados entre dicho *commit* y nuestro estado actual.
+
+**git diff 70fd099 0fd7c38:** Ver los cambios realizados entre dos *commits.*
+
+**git diff 0.5 0.3:** Ver la diferencia entre dos *tags.*
+
 
 > **Untracked files:** Son archivos que están en nuestro *Working Directory*
 
