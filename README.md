@@ -61,11 +61,21 @@ Un sistema que registra los cambios realizados sobre un archivo o conjunto de ar
 
 <br><br>
 
-### Notas ###
+### Notas y ejemplos ###
 
+**git add:** <br>
 ![git add](images/git-add.jpg)
 
+**git tag:**
 
+`git tag -a [1.x] -m "[descripcion]"` Registra un tag. <br>
+`git tag -l` Lista los tags existentes. <br>
+`git tag [1.x] [HASH commit]` Agrega un tag a un **commit** en especifico por medio de su **HASH.** <br>
+`git tag -f -a [1.x] -m "[description...]" [Commit HASH]` Permite renombrar un tag. <br>
+`git tag -d [1.x]` Elimina un tag.
+
+
+<br><br>
 
 ### Enlaces de interes ###
 
