@@ -151,6 +151,12 @@ git log --pretty=format:"%cn hizo un commit %h el dia %cd":** Muestra mensajes p
 
 **git pull [origin]:** Descarga cambios de GitHub y los fusiona automáticamente la rama espejo `origin/master` a la rama master de nuestro entorno local.
 
+**git push origin master:** Enviar cambios la rama master.
+
+**git push origin master --tags:** Enviar nuestros *tags* a la rama master.
+
+**git push origin [otra_rama]:** Enviar otras ramas.
+
 <br>
 
 > **Untracked files:** Son archivos que no están siendo rastreados por *git*, es decir, no están en nuestro *Working Directory* ni en nuestro *Staging Area.*
