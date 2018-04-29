@@ -149,6 +149,8 @@ git log --pretty=format:"%cn hizo un commit %h el dia %cd":** Muestra mensajes p
 
 **git fetch [origin]:** Descarga cambios de GitHub y crea una rama llamada `origin/master` que luego se debe fusionar con la master de nuestro entorno local.
 
+**git pull [origin]:** Descarga cambios de GitHub y los fusiona automáticamente la rama espejo `origin/master` a la rama master de nuestro entorno local.
+
 <br>
 
 > **Untracked files:** Son archivos que no están siendo rastreados por *git*, es decir, no están en nuestro *Working Directory* ni en nuestro *Staging Area.*
