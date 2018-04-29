@@ -147,6 +147,8 @@ git log --pretty=format:"%cn hizo un commit %h el dia %cd":** Muestra mensajes p
 
 **git remote set-url [origin] [SSH/HTTPS]:** Modificar la URL del repositorio remoto. De esta manera podemos cambiar la URL del remote llamado **origin** ya que podemos tener varios remotes.
 
+**git fetch [origin]:** Descarga cambios de GitHub y crea una rama llamada `origin/master` que luego se debe fusionar con la master de nuestro entorno local.
+
 <br>
 
 > **Untracked files:** Son archivos que no están siendo rastreados por *git*, es decir, no están en nuestro *Working Directory* ni en nuestro *Staging Area.*
