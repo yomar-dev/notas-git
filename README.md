@@ -113,6 +113,8 @@ git log --pretty=format:"%cn hizo un commit %h el dia %cd":** Muestra mensajes p
 
 **git checkout [name-branch or commit-HASH]:** Permite moverse entre ramas o entre los *commits* de una rama.
 
+**git merge [name-branch]:** Fusiona una rama con la actual (con la rama en la que nos encontramos posicionados).
+
 
 > **Untracked files:** Son archivos que no están siendo rastreados por *git*, es decir, no están en nuestro *Working Directory* ni en nuestro *Staging Area.*
 
@@ -154,6 +156,13 @@ Ver los *commits* de los últimos 90 días: <br>
 Si nos equivocamos y queremos regresar a un *commit* que ha sido eliminado al momento de hacer `reset --hard` podemos consultar el *HASH* de dicho *commit* en nuestro archivo *historial.txt* y luego hacer `git reset --hard [HASH]` para ir al *commit* que deseamos y recuperar nuestros cambios.
 
 **Ramas:** Una rama es una línea alterna del tiempo (del proyecto). La rama por defecto es **master**, la rama de GitHub Pages es **gh-pages** y cuando se trabaja como colaborador se identifica el proyecto principal con la rama **upstream.**
+
+#### Mezclando ramas y resolviendo conflictos ####
+En **Git** al mezclar ramas pueden pasar dos cosas, primero que la fusión se realizó con éxito **(Fast-Forward)** o que se presentaron conflictos **(Manual Merge)**.
+
+**Fast-Forward:** Es lo que ocurre cuando se realiza un cambio en una rama y al fusionarla con otra no presenta conflictos.
+
+**Manual Merge:** Es lo que ocurre cuando en ambas ramas se realizaran modificaciones afectando las mismas líneas de código, en este caso, **git** te pedirá que elijas con cual fragmento de código te quedarás.
 
 
 
