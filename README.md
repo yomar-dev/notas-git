@@ -139,6 +139,14 @@ git log --pretty=format:"%cn hizo un commit %h el dia %cd":** Muestra mensajes p
 
 **git clone [SSH/HTTPS]:** Clona un repositorio desde GitHub a nuestro equipo local.
 
+**git remote add [origin] [SSH/HTTPS]:** Conecta un repositorio con nuestro equipo local.
+
+**git remote -v:** Lista las conexiones existentes.
+
+**git remote remove [origin]:** Elimina una conexión con algún repositorio.
+
+**git remote set-url [origin] [SSH/HTTPS]:** Modificar la URL del repositorio remoto. De esta manera podemos cambiar la URL del remote llamado **origin** ya que podemos tener varios remotes.
+
 <br>
 
 > **Untracked files:** Son archivos que no están siendo rastreados por *git*, es decir, no están en nuestro *Working Directory* ni en nuestro *Staging Area.*
