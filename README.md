@@ -125,6 +125,17 @@ git log --pretty=format:"%cn hizo un commit %h el dia %cd":** Muestra mensajes p
 
 **git branch --no-merged:** Lista ramas que no han sido incorporadas a la actual.
 
+**git stash:** Guarda el status de forma temporal (pero los archivos deben estar en el *Staging Area*).
+
+**git stash list:** Lista los stashes.
+
+**git stash drop stash@{#}:** Elimina un stash por medio de su ID.
+
+**git stash apply:** Aplica el último Stash creado.
+
+**git stash apply stash@{numero}:** Aplica el *stash* indicado por medio de su ID.
+
+<br>
 
 > **Untracked files:** Son archivos que no están siendo rastreados por *git*, es decir, no están en nuestro *Working Directory* ni en nuestro *Staging Area.*
 
