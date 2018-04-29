@@ -115,6 +115,16 @@ git log --pretty=format:"%cn hizo un commit %h el dia %cd":** Muestra mensajes p
 
 **git merge [name-branch]:** Fusiona una rama con la actual (con la rama en la que nos encontramos posicionados).
 
+**git push origin --delete <branchName>:** Elimina una rama del servidor.
+
+**git mergetool:** Herramienta gráfica para resolver conflictos.
+
+**git branch -v:** Lista ramas mostrando último commit.
+
+**git branch --merged:** Lista las ramas que han sido mezcladas con la actual. Si no tienen un *, pueden borrarse, ya que significa que se han incorporado los cambios en la rama actual.
+
+**git branch --no-merged:** Lista ramas que no han sido incorporadas a la actual.
+
 
 > **Untracked files:** Son archivos que no están siendo rastreados por *git*, es decir, no están en nuestro *Working Directory* ni en nuestro *Staging Area.*
 
