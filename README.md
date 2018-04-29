@@ -137,6 +137,8 @@ git log --pretty=format:"%cn hizo un commit %h el dia %cd":** Muestra mensajes p
 
 **git cherry pick [HASH]:** Mueve un commit hecho en una rama (Branch A) a otra rama (Branch B). Para eso debemos movernos a la rama a la cual queremos traer los cambios y luego ejecutar `cherry-pick`.
 
+**git clone [SSH/HTTPS]:** Clona un repositorio desde GitHub a nuestro equipo local.
+
 <br>
 
 > **Untracked files:** Son archivos que no están siendo rastreados por *git*, es decir, no están en nuestro *Working Directory* ni en nuestro *Staging Area.*
