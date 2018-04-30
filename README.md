@@ -207,6 +207,60 @@ En **Git** al mezclar ramas pueden pasar dos cosas, primero que la fusión se re
 
 **Manual Merge:** Es lo que ocurre cuando en ambas ramas se realizaran modificaciones afectando las mismas líneas de código, en este caso, **git** te pedirá que elijas con cual fragmento de código te quedarás.
 
+<br><br>
+
+### Notas GitHub ###
+
+**Unwatch:** Permite que nos lleguen notificaciones si hay cambios en el repositorio.
+
+**Not watching:** Se te notifica cuando participas o mencionas.
+
+**Ignoring:** Nunca ser notificado.
+
+**Star:** Asi como en facebook se vive a base de likes, aqui se vive a base de estrellas, cuanto mas estrellas mas valorado es ese proyecto, y a su misma vez tiene muchos forks.
+
+**Fork:** Indica la cantidad de gente que hizo copia de su repositorio para poderles enviar cambios.
+
+#### Podemos ver las estadísticas de nuestro proyecto en Insights ####
+
+**Contributors:** Nos permite ver el avance de nuestro proyecto.
+
+**Traffic:** Nos muestra el trafico de nuestro proyecto.
+
+**Punch Card:** Muestra los días que a estado trabajando.
+
+**Network:** Vemos el flujo de ramas.
+
+**Members:** Nos muestra la gente que le a hecho fork a nuestro repositorio.
+
+**Dependents:** Nos muestra si nuestro repositorio depende de otro, es decir de un super repositorio.
+
+
+#### Settings: ####
+
+**Collaborators:** Aqui se añade a mas gente para que colabore en este proyecto.
+
+**Branches:** Podemos cambiar la rama principal, y proteger ramas.
+
+> **Nota:** Proteger siempre la rama master (Una vez protegida ningun cambio va a ir directamente a master, tenemos que pasar por cierto proceso para que un codigo vaya a master.
+
+**Pull Request:** Es una forma de tomar una rama alterna por ejemplo la rama *RD* y no mezclarla directamente con *master*. Si no enviar una solicitud de mezcla desde la rama *RD* a la *master*, asi alguien mas puede ver esa solicitud, algun colaborador, etc… Y se haga un code review.
+
+**Webhooks:** Es la forma de poderle agregar git code a otros servicios para que hagan un auto deploy.
+
+**Integrations & Services:** Incluir otros servicios como amazon, y que pueden hacer uso de nuestro repositorio.
+
+**Deploy Keys:** Son las llaves publicas ssh de tu servidor para poder hacer git pull desde el servidor, y tener tu código en producción.
+
+**Pull Requests:** Vemos una lista de pull requests que se han realizado.
+
+**Issues:** Son la forma en que manejamos nuestros problemas, bugs en github. <br>
+*Por ejemplo:* Hay un bug, este no va a ser reportado si no que lo que vamos a hacer es crear un issue comentando donde hay un problema, se hace de esta manera, ocurre en tal sistema operativo, etc…
+
+**Projects:** Nos aparece nuestros proyectos.
+
+> Al crear un **issue** o un **pull request**, github te permite incluir etiquetas en los mismos. Entre las etiquetas que nos pueden interesar a los que estamos comenzando a usar la plataforma se encuentran **help wanted** y **good first issue**. Github anima a los desarrolladores a que marquen los **issue** y los **pull request** que son más aptos para los que inician en este mundo con estas etiquetas y adicionalmente se pide a la comunidad que den un apoyo especial para estos **issues/pull request.**
+
 
 
 
