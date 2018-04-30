@@ -284,4 +284,5 @@ En **GitHub** podemos crear un template para los **pull request**, basta con cre
 [Reference GIT](https://git-scm.com/docs) <br>
 [git log](https://www.git-scm.com/docs/git-log) <br>
 [Configurar editor de texto para git en Windows](https://help.github.com/articles/associating-text-editors-with-git/) <br>
-[Resumen - Guia de GIT](https://joaquinaraujo.github.io/git-github/)
+[Resumen - Guia de GIT](https://joaquinaraujo.github.io/git-github/) <br>
+[Cómo hacer un Pull Request](https://help.github.com/articles/creating-a-pull-request/) <br>
