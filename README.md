@@ -269,7 +269,16 @@ En **GitHub** podemos crear un template para los **issues**, basta con crear un 
 
 #### Template para pull request ####
 
-En **GitHub** podemos crear un template para los **pull request**, basta con crear un archivo llamado **pull_request_template.md** y definir los lineamientos para reportar un **pull request**, ahora al realizar un **pull request** se mostrará el nuevo template.
+En **GitHub** podemos crear un template para los **pull request**, basta con crear un archivo llamado **pull_request_template.md** y definir los lineamientos para reportar un **pull request**, ahora al realizar un **pull request** se mostrará el nuevo template. <br><br>
+
+> **Milestones:** Nos brindan la posibilidad de agrupar `issues` o `pull requests`, es decir, son tareas globales con fechas de inicio y fin. <br>
+
+> **Ejemplo:** <br>
+> **Milestone:** Remodelar la casa (Empieza en mayo y termina en julio). <br>
+
+> **Issues:**   
+> - Trabajador 1: Se encarga de pintar la casa. <br>
+> - Trabajador 2: Se encarga de arreglar el piso.
 
 
 
