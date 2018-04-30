@@ -267,6 +267,10 @@ En **Git** al mezclar ramas pueden pasar dos cosas, primero que la fusión se re
 En **GitHub** podemos crear un template para los **issues**, basta con crear un archivo llamado **issue_template.md** y definir los lineamientos para reportar un **issue**, ahora al generar un nuevo **issue** se mostrará el nuevo template.
 
 
+#### Template para pull request ####
+
+En **GitHub** podemos crear un template para los **pull request**, basta con crear un archivo llamado **pull_request_template.md** y definir los lineamientos para reportar un **pull request**, ahora al realizar un **pull request** se mostrará el nuevo template.
+
 
 
 
