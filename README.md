@@ -262,6 +262,11 @@ En **Git** al mezclar ramas pueden pasar dos cosas, primero que la fusión se re
 > Al crear un **issue** o un **pull request**, github te permite incluir etiquetas en los mismos. Entre las etiquetas que nos pueden interesar a los que estamos comenzando a usar la plataforma se encuentran **help wanted** y **good first issue**. Github anima a los desarrolladores a que marquen los **issue** y los **pull request** que son más aptos para los que inician en este mundo con estas etiquetas y adicionalmente se pide a la comunidad que den un apoyo especial para estos **issues/pull request.**
 
 
+#### Template para issues ####
+
+En **GitHub** podemos crear un template para los **issues**, basta con crear un archivo llamado **issue_template.md** y definir los lineamientos para reportar un **issue**, ahora al generar un nuevo **issue** se mostrará el nuevo template.
+
+
 
 
 
